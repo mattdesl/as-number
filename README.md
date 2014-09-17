@@ -2,20 +2,13 @@
 
 [![frozen](http://badges.github.io/stability-badges/dist/frozen.svg)](http://github.com/badges/stability-badges)
 
-Saving keystrokes, avoiding typos.
+Tiny function that returns the given number, or a default value if `typeof !== 'number'`. If no default is given, returns 0.
 
-If the given value is a `typeof === "number"`, it returns the value unchanged. Otherwise, it will use the default argument, if specified as a number, or 0. 
-
-```js
+```ks
 var number = require('as-number')
 
-function Foo(opt) {
-	opt = opt||{}
-
-	opt.myArg = number(opt.myArg)
-	opt.someArgument = number(opt.someArgument, 25)
-	opt.yetAnotherArgument = number(opt.yetAnotherArgument, 15)
-}
+var num = number(arg0, 25) //default to 25
+var num2 = number(arg1)    //default to zero
 ```
 
 ## Usage

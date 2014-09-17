@@ -1,5 +1,3 @@
-[![browser support](https://ci.testling.com/mattdesl/as-number.png)](https://ci.testling.com/mattdesl/as-number)
-
 # as-number
 
 [![frozen](http://badges.github.io/stability-badges/dist/frozen.svg)](http://github.com/badges/stability-badges)

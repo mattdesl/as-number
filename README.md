@@ -4,7 +4,7 @@
 
 Tiny function that returns the given number, or a default value if `typeof !== 'number'`. If no default is given, returns 0.
 
-```ks
+```js
 var number = require('as-number')
 
 var num = number(arg0, 25) //default to 25
